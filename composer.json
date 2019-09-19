@@ -1,0 +1,26 @@
+{
+    "name": "laravelappbuilder/quotes",
+    "description": "This package helps user add quotes to database and then grab quotes from database and post to facebook",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laravel App Builder",
+            "email": "laravelappbuilder@gmail.com"
+        }
+    ],
+    "minimum-stability": "^1.0",
+    "autoload":{
+      "psr-4":{
+        "Quotes\\":"src/"
+      }
+    },
+    "extra":{
+      "laravel":{
+        "providers":[
+          "Quotes\\QuotesServiceProvider"
+        ]
+      }
+    },
+    "require": {}
+}
